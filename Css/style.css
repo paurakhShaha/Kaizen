@@ -1,0 +1,143 @@
+*{
+
+  color: #8a8c8e;
+  background-color: #F9F7F7;
+  font-family: 'Sono', monospace,Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+div{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  text-emphasis: center;
+  
+}
+
+.items .item{
+  padding: 10px;
+}
+
+.logo-container{
+  padding: 10px;
+}
+.item .product-container {
+  display: none;
+  background-color:  #fcfbfb;
+  margin-top: 50px;
+  min-height: 250px;
+  min-width: 180px;
+  flex-direction: column;
+  position:absolute;
+  justify-content: flex-start;
+  border-radius: 10%;
+  
+  
+
+}
+.product-container .product-container-contents{
+  color: gray;
+  margin: 10px;
+ padding: 5px;
+ justify-content: center;
+ background-color: #fcfbfb;
+ text-align: center;
+  
+}
+#item-product:hover .product-container{
+  display: flex;
+  
+}
+.item .login-svg{
+  height: 50px;
+  width: 50px;
+   border-radius: 25px; 
+}
+.item-content-login{
+  background-color:  #fcfbfb;
+  margin-top: 60px;
+  right: 0px;
+  display: none;
+  min-height: 200px;
+  min-width: 180px;
+  flex-direction: column;
+  position:absolute;
+  justify-content:center;
+  border-radius: 10%;
+}
+
+.login-item{
+  color: gray;
+  margin: 10px;
+ padding: 5px;
+ justify-content: center;
+ background-color: #fcfbfb;
+}
+.login-svg{
+  cursor: pointer;
+}
+
+.login-item-text,.product-container-text{
+  font-size: medium;
+  color: gray;
+  
+ 
+}
+#item-login-container:hover .item-content-login{
+  display: flex;
+} 
+
+h1:hover{
+  color: black;
+}
+.item{
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-svg{
+height: 50px;
+width: 50px;
+
+}
+h1 {
+  text-align: center;
+}
+a{
+  height: fit-content;
+}
+.items
+{
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container{
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.container-items{
+  
+  justify-content: space-between;
+  align-items: center;
+}
+.search{
+  border-radius:30px ;
+  text-align: center;
+  height: 60px;
+  width: 550px;
+  min-width: 100px;
+  max-width: 550px;
+  
+}
+.search-con{
+  width: 550px;
+  min-width: 100px;
+  max-width: 550px;
+}
